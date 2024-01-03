@@ -1,10 +1,6 @@
-.greeting {
+.app {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: 600;
 }/*# sourceMappingURL=App.css.map */

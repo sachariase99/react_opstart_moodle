@@ -3,7 +3,9 @@ import React from 'react'
 const Greeting = (props) => {
     return (
         <>
-            <p>Hej, {props.name}!</p>
+            <ul>
+                <li>Hej, {props.name}!</li>
+            </ul>
         </>
     )
 }
