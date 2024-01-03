@@ -9,6 +9,7 @@ function App() {
   return (
     <div className='app'>
       <Nav />
+      <div className="Container">
       <div className='greeting'>
         <Greeting name="Et" />
         <Greeting name="To" />
@@ -18,7 +19,7 @@ function App() {
         <FavoriteList items={favoriteFoods} title="Favorite Foods" />
         <FavoriteList items={favoriteMovies} title="Favorite Movies" />
       </div>
-
+      </div>
       <Footer />
     </div>
   )

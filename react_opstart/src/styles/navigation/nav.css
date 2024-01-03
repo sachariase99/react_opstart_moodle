@@ -1,11 +1,12 @@
 .navigation {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  padding-top: 20px;
 }
 .navigation ul {
   background-color: white;
   width: 400px;
+  height: 5vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

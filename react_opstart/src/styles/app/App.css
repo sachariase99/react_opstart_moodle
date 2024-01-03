@@ -1,6 +1,11 @@
 .app {
+  height: 100vh;
+}
+.app .Container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 87.9vh;
+  gap: 1rem;
 }/*# sourceMappingURL=App.css.map */
