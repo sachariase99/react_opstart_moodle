@@ -1,16 +1,15 @@
 import { useState } from 'react'
 import './styles/app/app.css'
+import { Nav, Header, Footer } from './components'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <Nav />
+      <Header />
+      <Footer />
     </>
   )
 }
